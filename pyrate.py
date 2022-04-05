@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-import sys,time,os,json
-from datetime import datetime
+import sys,os,json
 from PyQt5.QtWidgets import QApplication, QWidget, QMainWindow, QFileDialog
 from PyQt5 import uic
 from PyQt5.QtGui import QIcon
