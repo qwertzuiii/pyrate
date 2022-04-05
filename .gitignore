@@ -1,0 +1,12 @@
+
+build versions
+output
+resources/dev
+resources/pkg/gb.goldberg
+resources/pkg/sse.smartsteamemu
+resources/favicon.png
+resources/favicon_old.ico
+resources/favicon_old.png
+resources/config/d.nfo
+resources/config/__pycache__
+__pycache__

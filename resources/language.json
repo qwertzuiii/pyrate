@@ -1,0 +1,33 @@
+{
+	"de": [
+		"Datei auswaehlen",
+		"steam_api.dll Pfad (EINS Optional)",
+		"steam_api64.dll Pfad (EINS Optional)",
+		"Crack Typ",
+		"CRACKEN",
+
+		"Crack-Typen:",
+		"Installiert:",
+		"Ja",
+		"Nein",
+		"Cracks herunterladen",
+		"Ordner auswaehlen",
+		"Spiel Ordner Pfad (mit der .exe drin)"
+	],
+
+	"en": [
+		"Select File",
+		"steam_api.dll path (ONE optional)",
+		"steam_api64.dll path (ONE optional)",
+		"Crack type",
+		"CRACK",
+
+		"Crack types:",
+		"Installed:",
+		"Yes",
+		"No",
+		"Download Cracks",
+		"Select Directory",
+		"Game folder path (with the .exe in it)"
+	]
+}
