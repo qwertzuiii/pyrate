@@ -166,16 +166,30 @@ class MainApp(QMainWindow, QWidget):
     def changeLanguage(self, value):
         if value == 0:
             currentLanguage = 'en'
-        if value == 1:
+        elif value == 1:
             currentLanguage = 'de'
+        elif value == 2:
+            currentLanguage = 'es'
+        elif value == 3:
+            currentLanguage = 'fr'
+        else: currentLanguage = 'en'
         self.langIndex = value
         self.langS = currentLanguage
+        
+        if debug:
+            print(str(self.langIndex) + ' ' + str(value))
+            print(self.langS + ' ' + currentLanguage)
+            print(isinstance(value, int))
         print('<PYRATE> Changing language to', currentLanguage)
         self.lang_changing(language_short=currentLanguage)
 
 
     def lang_changing(self, language_short):
-        valueBox = self.crackInput.currentIndex()
+        valueBox = self.comLang.currentIndex()
+        
+        if debug:
+            print(str(valueBox)+' VALUEBOX')
+            print(language_short)
 
         self.defFileDia = lang[language_short][0]
         self.defDirectory = lang[language_short][10]

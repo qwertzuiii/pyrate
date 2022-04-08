@@ -221,6 +221,16 @@
       <string>DE</string>
      </property>
     </item>
+    <item>
+     <property name="text">
+      <string>ES</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>FR</string>
+     </property>
+    </item>
    </widget>
   </widget>
  </widget>

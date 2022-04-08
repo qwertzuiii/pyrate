@@ -30,6 +30,10 @@ class Ui_Form(object):
             self.shortLang = 'en'
         if langIndex == 1:
             self.shortLang = 'de'
+        if langIndex == 2:
+            self.shortLang = 'es'
+        if langIndex == 3:
+            self.shortLang = 'fr'
 
         if debug: print('Current Language started:', langIndex)
         Form.setObjectName("Window")

@@ -29,5 +29,37 @@
 		"Download Cracks",
 		"Select Directory",
 		"Game folder path (with the .exe in it)"
+	],
+
+	"fr": [
+		"Choisir le dossier",
+		"steam_api.dll chemin (UN facultatif)",
+		"steam_api64.dll chemin (UN facultatif)",
+		"Type de fissure",
+		"FISSURE",
+
+		"Types de fissure:",
+		"Installe:",
+		"Oui",
+		"Non",
+		"Telecharger des fissures",
+		"Selectionnez le repertoire",
+		"Chemin du dossier du jeu (avec le .exe dedans)"
+	],
+	
+	"es": [
+		"Seleccione Archivo",
+		"steam_api.dll ruta (UNA opcional)",
+		"steam_api64.dll ruta (UNA opcional)",
+		"Tipo de grieta",
+		"GRIETA",
+
+		"Tipos de grietas:",
+		"Instalado:",
+		"Si",
+		"No",
+		"Descargar grietas",
+		"Seleccionar directorio",
+		"Ruta de la carpeta del juego (con el .exe en ella)"
 	]
 }
