@@ -15,6 +15,9 @@ Finished! Your game is now cracked (it CAN work, but not 100%. Some games cannot
 
 You can Translate the program, BUT you NEED to replace a language, if you use the build-version!
 - Open language.json in resources/!
-- Replace DE (German), or EN (English) for it!
+- Replace one of the EXISTING languages!
 
-Later some languages will be added in this program (google translate... D: ... i haven't friends with spanish, french or other languages)
+Later some languages will be added in this program (google translate... D:)
+
+## Source Code [How to edit]
+Coming later!
