@@ -17,7 +17,9 @@ You can Translate the program, BUT you NEED to replace a language, if you use th
 - Open language.json in resources/!
 - Replace one of the EXISTING languages!
 
-Later some languages will be added in this program (google translate... D:)
-
 ## Source Code [How to edit]
-Coming later!
+- Download the Source Code (lol)
+- Install Python 3.7 / 3.9
+- Install PyQt5 via pip in cmd
+
+Finished!
