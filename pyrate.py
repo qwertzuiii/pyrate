@@ -194,6 +194,7 @@ class MainApp(QMainWindow, QWidget):
 
     def lang_changing(self, language_short):
         valueBox = self.comLang.currentIndex()
+        valuex = self.crackInput.currentIndex()
         
         if debug:
             print(str(valueBox)+' VALUEBOX')
@@ -201,7 +202,7 @@ class MainApp(QMainWindow, QWidget):
 
         self.defFileDia = lang[language_short][0]
         self.defDirectory = lang[language_short][10]
-        if valueBox == 1:
+        if valuex == 1:
             self.gameLabel.setText(lang[language_short][11])
         else: self.gameLabel.setText(lang[language_short][1])
         self.gameLabel2.setText(lang[language_short][2])
