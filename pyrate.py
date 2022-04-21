@@ -13,10 +13,14 @@ from _dwn import pkgname_gb, pkgname_sse
 
 #
 RESOURCE = str('resources\\')
-LOCATION_UI = str('xml\\mw.xml')
+LOCATION_UI = str('xml\\mw_new.xml')
 LOCATION_ICON = str('favicon.ico')
 LOCATION_LANG = str('language.json')
+LOCATION_VER = str(RESOURCE+'config\\v')
 #
+
+with open(LOCATION_VER) as v:
+    appVer = v.read()
 
 if os.path.exists(RESOURCE+'config/d.nfo'):
     with open(RESOURCE+'config/d.nfo') as d:
@@ -52,6 +56,10 @@ class MainApp(QMainWindow, QWidget):
         self.dwnButton.clicked.connect(self.downloadSection)
         self.crackInput.currentIndexChanged.connect(self.on_combobox_changed)
         self.comLang.currentIndexChanged.connect(self.changeLanguage)
+
+        #
+        self.VERSION_T.setText(appVer)
+        #
 
         if os.path.exists(pkg_path+pkgname_gb):
             self.crackInput.addItem('Goldberg Crack')

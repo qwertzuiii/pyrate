@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>271</width>
+    <height>262</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>271</width>
+    <height>262</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>271</width>
+    <height>262</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>PYRATE</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(232, 232, 232);
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>0</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>PYRATE</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_selection">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>241</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLineEdit" name="Input1">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>91</y>
+       <width>171</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 0);
+border-style: outset;
+border-color: white;
+border-width: 2px;
+border-radius: 8px;
+border-color: rgb(204, 204, 204);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="gameLabel">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>70</y>
+       <width>231</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>steam_api.dll path (optional)</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="gameSearch">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>90</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	border-color: rgb(0, 0, 0);
+	border-style: outset;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color: rgb(204, 204, 204);
+}
+
+QPushButton:pressed {
+	background-color: rgb(214, 214, 214)
+}</string>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="crackInput">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>30</y>
+       <width>151</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 0);
+border-style: outset;
+border-color: white;
+border-width: 2px;
+border-radius: 8px;
+border-color: rgb(204, 204, 204);</string>
+     </property>
+     <property name="currentText">
+      <string notr="true"/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="crackLabel">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>10</y>
+       <width>231</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Crack type</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="dwnButton">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>30</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	border-color: rgb(0, 0, 0);
+	border-style: outset;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color: rgb(204, 204, 204);
+}
+
+QPushButton:pressed {
+	background-color: rgb(214, 214, 214)
+}</string>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="gameLabel2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>120</y>
+       <width>231</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>steam_api64.dll path (optional)</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="gameSearch2">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>140</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	border-color: rgb(0, 0, 0);
+	border-style: outset;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color: rgb(204, 204, 204);
+}
+
+QPushButton:pressed {
+	background-color: rgb(214, 214, 214)
+}</string>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Input2">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>141</y>
+       <width>171</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 0);
+border-style: outset;
+border-color: white;
+border-width: 2px;
+border-radius: 8px;
+border-color: rgb(204, 204, 204);</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="letsCrack">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>220</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	border-color: rgb(0, 0, 0);
+	border-style: outset;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color: rgb(204, 204, 204);
+}
+
+QPushButton:pressed {
+	background-color: rgb(214, 214, 214)
+}</string>
+    </property>
+    <property name="text">
+     <string>CRACK</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comLang">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+border-style: outset;
+border-color: white;
+border-width: 2px;
+border-radius: 8px;
+border-color: rgb(204, 204, 204);</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>EN</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DE</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ES</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>FR</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="VERSION_T">
+    <property name="geometry">
+     <rect>
+      <x>192</x>
+      <y>18</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Semibold</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;v.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
